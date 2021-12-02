@@ -10,8 +10,8 @@
   color: #efeff1;
   font-weight: bold;
   border: none;
-  width: 43.4vw;
-  height: 5vw;
+  width: 19.8rem;
+  height: 3rem;
   font-size: larger;
   direction: rtl;
 }
@@ -19,13 +19,13 @@
 .backClr {
   background-color: #e0e0e0;
   border: 1px solid #cdcdcd;
-  width: 11vw;
-  height: 10vw;
+  width: 5rem;
+  height: 5rem;
   font-weight: bold;
 }
 
 .zero {
-  width: 22vw;
+  width: 10rem;
 }
 
 .difClr {
