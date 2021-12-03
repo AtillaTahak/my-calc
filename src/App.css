@@ -22,6 +22,7 @@
   width: 5rem;
   height: 5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .zero {
