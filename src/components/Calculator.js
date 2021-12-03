@@ -13,16 +13,15 @@ const Calculator = () => {
     const btnName = button.target.innerHTML;
     setValue(calculate(value, btnName));
   };
-  const { total, next, operation } = value;
   const view = () => {
-    if (next) {
-      return next;
+    if (value.next) {
+      return value.next;
     }
-    if (operation) {
-      return operation;
+    if (value.operation) {
+      return value.operation;
     }
-    if (total) {
-      return total;
+    if (value.total) {
+      return value.total;
     }
     return 0;
   };
