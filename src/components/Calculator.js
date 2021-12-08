@@ -27,13 +27,16 @@ const Calculator = () => {
   };
   return (
     <section className="calculator">
+      <div>
+        <h2>Lets do some Math!</h2>
+      </div>
       <div className="calcBody">
         <div className="row">
           <input className="inputUser" type="text" placeholder="0" value={view()} onChange={() => { }} />
         </div>
         <div className="row">
           <button type="button" className="backClr" onClick={writeInner}>AC</button>
-          <button type="button" className="backClr" onClick={writeInner}>+/-</button>
+          <button type="button" className="backClr direction" onClick={writeInner}>+/-</button>
           <button type="button" className="backClr" onClick={writeInner}>%</button>
           <button type="button" className="backClr difClr" onClick={writeInner}>÷</button>
         </div>
