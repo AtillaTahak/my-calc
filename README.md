@@ -3,6 +3,8 @@
 # Module 3: Calculator
 
 > i made up Calculator with reactjs 
+> i used state
+> i used setState
 
 ![screenshot](./app_screenshot.png)
 
@@ -16,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link]
+[Live Demo Link](https://lit-meadow-10167.herokuapp.com)
 
 
 
